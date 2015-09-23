@@ -20,3 +20,7 @@ hr { margin: 90px 0 30px 0; height: 1px; }
 .caption { margin-bottom: 20px; color: #444; }
 #photos li { margin: 90px 0; }
 #photos img { }
+
+@media (max-width: 960px) {
+  body { background: url(../img/bg-sm.jpg) no-repeat; background-size: auto; }
+}
