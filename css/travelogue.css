@@ -1,5 +1,4 @@
-html, body { margin: 0; padding: 0; }
-body { background: url(../img/bg.jpg) no-repeat; background-size: cover; background-attachment: fixed; transition: all 2s ease-in; font-family: 'Yantramanav', 'Helvetica Neue', Helvetica, sans-serif; }
+body { margin: 0; padding: 0; background: url(../img/bg.jpg) no-repeat; background-size: cover; background-attachment: fixed; font-family: 'Yantramanav', 'Helvetica Neue', Helvetica, sans-serif; }
 h1, h2, h3, p { margin: 0; padding: 0; }
 h1 { font: 700 60px/60px 'Yantramanav', 'Helvetica Neue', Helvetica, sans-serif; }
 h2 { font: 500 16px 'Yantramanav', 'Helvetica Neue', Helvetica, sans-serif; text-transform: uppercase; letter-spacing: .2em; }
@@ -18,7 +17,7 @@ hr { margin: 90px 0 30px 0; height: 1px; }
 .gallery { padding: 160px 10px; }
 .footnote { font-size: 14px; line-height: 18px; margin: 30px 0 90px; }
 .caption { margin-bottom: 20px; color: #444; }
-#photos li { margin: 90px 0; }
+#photos li { margin: 90px 0; overflow: hidden; }
 #photos img { }
 
 @media only screen and (max-device-width: 1024px) {
@@ -26,7 +25,7 @@ hr { margin: 90px 0 30px 0; height: 1px; }
   p { width: auto; }
   .container-fluid { border: 1px solid #000; }
   .lede { margin: 0 0 90px 0; }
-  .container { width: 100%; padding: 0 20px; }
+  .container.gallery { width: 100%; padding: 0 20px; }
 }
 
 /*@media only screen
