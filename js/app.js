@@ -34,7 +34,7 @@
       var imgDate = (photo.published).slice(0, 10);
       var imgTitle = photo.title;
 
-      $photoHTML += '<li><hr>';
+      $photoHTML += '<li>';
       $photoHTML += '<h3>' + imgTitle + '</h3>';
       $photoHTML += '<p class="caption">' + imgDate + '</p>';
       $photoHTML += '<a href="' + photo.link + '">';
