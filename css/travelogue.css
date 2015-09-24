@@ -8,13 +8,13 @@ p { font: 300 24px/30px 'Yantramanav', 'Helvetica Neue', Helvetica, sans-serif; 
 a { font-weight: 500; color: #f30; text-decoration: none;}
 hr { margin: 90px 0 30px 0; height: 1px; }
 
-.container-fluid { width: 100%; background-color: #fff; text-align: center; }
-.lede { background-color: #f30; padding: 120px 10px 40px 10px; margin: 60px 0 360px 0; }
-
+.lede { width: 100%; background-color: #f30; text-align: center; padding: 120px 10px 40px 10px; margin: 60px 0 360px 0; }
+.container-fluid { width: 100%; background-color: #fff; }
 .container { width: 960px; margin: 0 auto; text-align: left; overflow: hidden; }
+.gallery { width: 940px; background-color: #fff; padding: 160px 10px; }
+
 .dingbat { display: block; margin-bottom: 36px; color: #fff; }
 .eyebrow { font: 400 16px 'Yantramanav', 'Helvetica Neue', Helvetica, sans-serif; text-transform: uppercase; letter-spacing: .2em; display: block; color: #fff; }
-.gallery { padding: 160px 10px; }
 .footnote { font-size: 14px; line-height: 18px; margin: 30px 0 90px; }
 .caption { margin-bottom: 20px; color: #444; }
 #photos li { margin: 90px 0; overflow: hidden; }
@@ -22,10 +22,11 @@ hr { margin: 90px 0 30px 0; height: 1px; }
 
 @media only screen and (max-device-width: 1024px) {
   body { background-image: none; }
-  p { width: auto; }
+  p { width: auto; padding: 0 20px; }
+  h3, .caption { padding: 0 20px; }
   .container-fluid { border: 1px solid #000; }
   .lede { margin: 0 0 90px 0; }
-  .container.gallery { width: 100%; padding: 0 20px; }
+  .gallery { width: 100%; }
 }
 
 /*@media only screen
