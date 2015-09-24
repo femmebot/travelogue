@@ -21,7 +21,7 @@ hr { margin: 90px 0 30px 0; height: 1px; }
 #photos li { margin: 90px 0; }
 #photos img { }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1024px) {
   body { background: url(../img/bg-sm.jpg) no-repeat; background-size: auto; }
   .container { width: 100%; }
 }
@@ -30,6 +30,6 @@ hr { margin: 90px 0 30px 0; height: 1px; }
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1) {
-  body { background: url(../img/bg-sm.jpg) no-repeat; background-size: auto; }
+  body { background: url(../img/bg-sm.jpg) no-repeat; }
   .container { width: 100%; }
 }
