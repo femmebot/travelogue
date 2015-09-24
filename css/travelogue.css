@@ -25,3 +25,11 @@ hr { margin: 90px 0 30px 0; height: 1px; }
   body { background: url(../img/bg-sm.jpg) no-repeat; background-size: auto; }
   .container { width: 100%; }
 }
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  body { background: url(../img/bg-sm.jpg) no-repeat; background-size: auto; }
+  .container { width: 100%; }
+}
