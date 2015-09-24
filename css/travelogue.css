@@ -22,7 +22,7 @@ hr { margin: 90px 0 30px 0; height: 1px; }
 #photos img { }
 
 @media only screen and (max-width: 1024px) {
-  body { background: url(../img/bg-sm.jpg) no-repeat; }
+  body { background: url(../img/bg-sm.jpg) no-repeat; background-size: cover; }
   .container { width: 100%; }
 }
 
