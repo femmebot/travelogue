@@ -23,16 +23,17 @@ a { font-weight: 500; color: #f30; text-decoration: none;}
   body { background-image: none; }
   p { width: auto; padding: 0 20px; }
   h3, .caption { padding: 0 20px; }
-  .container-fluid { border: 1px solid #000; }
+  .lede { margin: 0 0 90px 0; }
+  .gallery { width: 100%; }
+  /*#photos img { width: 50%; height: 50%; }*/
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  body { background-image: none; }
   .lede { margin: 0 0 90px 0; }
   .gallery { width: 100%; }
   #photos img { width: 50%; height: 50%; }
 }
-
-/*@media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 1) {
-  body { background: url(../img/bg-sm.jpg) center top no-repeat; background-size: default; }
-  .container { width: 100%; }
-}*/
