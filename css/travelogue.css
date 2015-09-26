@@ -24,6 +24,7 @@ a { font-weight: 500; color: #f30; text-decoration: none;}
   p { width: auto; padding: 0 20px; }
   h3, .caption { padding: 0 20px; }
   .lede { margin: 0 0 90px 0; }
+  .container { width: 100%; }
   .gallery { width: 100%; }
   /*#photos img { width: 50%; height: 50%; }*/
 }
@@ -34,6 +35,7 @@ a { font-weight: 500; color: #f30; text-decoration: none;}
   and (-webkit-min-device-pixel-ratio: 1) {
   body { background-image: none; }
   .lede { margin: 0 0 90px 0; }
+  .container { width: 100%; }
   .gallery { width: 100%; }
-  #photos img { width: 50%; height: 50%; }
+  /*#photos img { width: 50%; height: 50%; }*/
 }
