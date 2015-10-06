@@ -30,16 +30,16 @@
     $.each(data.items,function(i,photo) {
 
       var thumbnailURL = photo.media.m;
-      var imgURL = thumbnailURL.replace("_m.jpg", "_c.jpg");  // converts thumbnail to larger photo
+      var imgURL = thumbnailURL.replace("_m.jpg", "_z.jpg");  // converts thumbnail to larger photo
       var imgDate = (photo.published).slice(0, 10);
       var imgTitle = photo.title;
 
       $photoHTML += '<li>';
-      $photoHTML += '<h3>' + imgTitle + '</h3>';
-      $photoHTML += '<p class="caption">' + imgDate + '</p>';
       $photoHTML += '<a href="' + photo.link + '">';
       // console.log(imgURL);
       $photoHTML += '<img src="' + imgURL + '"></a>';
+      $photoHTML += '<h3>' + imgTitle + '</h3>';
+      $photoHTML += '<p class="caption">' + imgDate + '</p>';
       $photoHTML += '</li>';
     }); // end each
     // $photoHTML += '</ul>';
