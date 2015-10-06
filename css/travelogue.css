@@ -29,12 +29,11 @@ a { font-weight: 500; color: #f30; text-decoration: none;}
 #photos img { margin: 0 auto; }
 
 @media only screen and (max-device-width: 1024px) {
-  /*body { background-image: none; }*/
+  body { background-color: #f6f6f6; }
   p { width: auto; padding: 0 20px; }
-  h1, h2, h3, .caption { padding-left:20px; padding-right: 20px; }
-  .lede { margin: 0 0 90px 0; }
+  h1, h2 { padding-left:20px; padding-right: 20px; }
+  .lede { margin: 0; }
   .container { width: 100%; }
-  .container-fluid { padding: 0 10px; }
   .gallery { width: 100%; }
   /*#photos img { width: 50%; height: 50%; }*/
 }
