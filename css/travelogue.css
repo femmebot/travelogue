@@ -47,7 +47,7 @@ a { font-weight: 500; color: #f30; text-decoration: none;}
     .lede { margin: 0; }
     .container { width: 100%; }
     .container-fluid { overlflow: hidden; }
-    #photos li { padding: 20px; }
-    #photos li h3, #photos li .caption { width: 240px; }
+    #photos li { padding: 20px; overflow: hidden; }
+    h3, #photos li p.caption { width: 240px; }
     #photos img { width: 240px; height: 180px; }
 }
