@@ -29,8 +29,8 @@ a { font-weight: 500; color: #f30; text-decoration: none;}
 #photos img { margin: 0 auto; }
 
 @media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 768px) {
+  and (min-width: 320px)
+  and (max-width: 768px) {
     body { background-color: #f6f6f6; background-image: none; }
     h1, h2, .gallery > p { padding-left:20px; padding-right: 20px; }
     .lede { margin: 0; }
