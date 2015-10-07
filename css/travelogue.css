@@ -49,4 +49,5 @@ a { font-weight: 500; color: #f30; text-decoration: none;}
     .container-fluid { overflow: hidden; }
     .gallery { width: calc(100% - 40px); }
     #photos li { padding: 20px; }
+    #photos img { width: 240px; height: 180px; }
 }
