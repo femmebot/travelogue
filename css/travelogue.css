@@ -28,11 +28,6 @@ a { font-weight: 500; color: #f30; text-decoration: none;}
     transform: rotate(.6deg); }
 #photos img { margin: 0 auto; }
 
-@media only screen
-  and (min-device-width: 320px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    body { background-color: #f00; background-image: none; }
-}
 
 @media only screen
   and (min-device-width: 768px)
