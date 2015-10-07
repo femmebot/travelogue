@@ -43,6 +43,7 @@ a { font-weight: 500; color: #f30; text-decoration: none;}
 @media screen
   and (-webkit-min-device-pixel-ratio: 2) {
     body { background-color: #f6f6f6; background-image: none; }
+    h1 { font: 700 48px/50px 'Yantramanav', 'Helvetica Neue', Helvetica, sans-serif; width: 300px; }
     h1, h2, .gallery > p { padding-left:20px; padding-right: 20px; }
     .lede { margin: 0; }
     .container { width: 100%; }
