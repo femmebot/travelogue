@@ -48,6 +48,7 @@ a { font-weight: 500; color: #f30; text-decoration: none;}
     .container { width: 100%; }
     .container-fluid { overlflow: hidden; }
     #photos li { padding: 20px; overflow: hidden; }
+    h3 { font: 500 20px/24px 'Amatic SC', 'Helvetica Neue', Helvetica, sans-serif; color: #000; }
     h3, #photos li p.caption { width: 240px; }
     #photos img { width: 240px; height: 180px; }
 }
