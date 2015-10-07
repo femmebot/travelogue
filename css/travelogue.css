@@ -15,7 +15,7 @@ a { font-weight: 500; color: #f30; text-decoration: none;}
 .dingbat { display: block; margin-bottom: 36px; color: #fff; }
 .eyebrow { font: 400 16px 'Yantramanav', 'Helvetica Neue', Helvetica, sans-serif; text-transform: uppercase; letter-spacing: .2em; display: block; color: #fff; }
 .footnote { font-size: 14px; line-height: 18px; margin: 30px 0 90px; }
-.caption { font: 14px/30px 'Share Tech Mono', 'Helvetica Neue', Helvetica, sans-serif; margin: 6px 0 30px; color: #ab9298; }
+.caption { font: 14px/20px 'Share Tech Mono', 'Helvetica Neue', Helvetica, sans-serif; margin: 6px 0 30px; color: #ab9298; }
 #photos li { margin: 20px 0; background-color: #fff; padding: 60px; box-shadow: 1px 0 6px 0 #ccc; display: inline-block; }
 #photos li:nth-child(even) {
     -ms-transform: rotate(-.6deg); /* IE 9 */
