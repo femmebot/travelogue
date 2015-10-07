@@ -31,9 +31,8 @@ a { font-weight: 500; color: #f30; text-decoration: none;}
 
 @media only screen
   and (min-device-width: 320px)
-  and (max-device-width: 768px) {
-  /*and (-webkit-min-device-pixel-ratio: 1) {*/
-    /*body { background-image: none; }*/
+  and (max-device-width: 768px)
+  and (-webkit-min-device-pixel-ratio: 1) {
     body { background-color: #f6f6f6; background-image: none; }
     h1, h2, .gallery > p { padding-left:20px; padding-right: 20px; }
     .lede { margin: 0; }
