@@ -41,6 +41,8 @@ a { font-weight: 500; color: #f30; text-decoration: none;}
 }
 
 @media screen
+  and (min-device-width: 320px)
+  and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
     body { background-color: #f6f6f6; background-image: none; }
     h1 { font: 700 48px/50px 'Yantramanav', 'Helvetica Neue', Helvetica, sans-serif; width: 300px; }
