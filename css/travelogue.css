@@ -16,15 +16,21 @@ a { font-weight: 500; color: #f30; text-decoration: none;}
 .eyebrow { font: 400 16px 'Yantramanav', 'Helvetica Neue', Helvetica, sans-serif; text-transform: uppercase; letter-spacing: .2em; display: block; color: #fff; }
 .footnote { font-size: 14px; line-height: 18px; margin: 30px 0 90px; }
 .caption { font: 14px/20px 'Share Tech Mono', 'Helvetica Neue', Helvetica, sans-serif; margin: 6px 0 30px; color: #ab9298; }
-#photos li { margin: 20px 0; background-color: #fff; padding: 60px; box-shadow: 1px 0 6px 0 #ccc; display: inline-block; }
+#photos li {
+  margin: 20px 0;
+  background-color: #fff;
+  padding: 60px;
+  box-shadow: 1px 0 6px 0 #ccc;
+  display: inline-block;
+}
 #photos li:nth-child(even) {
-    -ms-transform: rotate(-.6deg); /* IE 9 */
-    -webkit-transform: rotate(-.6deg); /* Chrome, Safari, Opera */
+    -ms-transform: rotate(-.6deg);
+    -webkit-transform: rotate(-.6deg);
     transform: rotate(-.6deg); }
 #photos li:nth-child(odd) {
     float: right;
-    -ms-transform: rotate(.6deg); /* IE 9 */
-    -webkit-transform: rotate(.6deg); /* Chrome, Safari, Opera */
+    -ms-transform: rotate(.6deg);
+    -webkit-transform: rotate(.6deg);
     transform: rotate(.6deg); }
 #photos img { margin: 0 auto; }
 
